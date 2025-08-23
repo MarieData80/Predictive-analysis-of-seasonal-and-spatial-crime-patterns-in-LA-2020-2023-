@@ -2,12 +2,16 @@
 
 ![Fig 01](../images/Fig%2001.png)
 
+Fig 01
+
 The data engineering followed a simplified Extract Transform Load process (A simplified ETL model 2(Reis, J. and Housley, M. (2022))
 The data preprocessing had over 900,000 lines of data in a CSV file imported into Excel /Power Query for transformation 
 Data type was assigned focusing on date / time fields with calendar data, numerical codes for the division number and decimal for location coordinates.   
 As only time series and spatial analysis data was required unnecessary or duplicate data was removed.    
 
 ![Fig 02](../images/Fig%2002.jpg)
+
+Fig 02
 
 # Iteration 
 Cleaning initially tool place in Python / Gemini. The data was returned efficiently but was missing nearly 400’000 lines. The decision was made to restart with Microsoft products. This took longer but there was a clear understanding of how the data was being transformed.   
@@ -19,6 +23,8 @@ Imputing was actioned on some blank cells / missing data for AREA_NO. This could
 267 lines of data where cleaned 36 lines of data were removed due to insufficient or incorrect data entry. The number was small enough to not affect the overall reading of the data set. 
 
 ![Fig 03](../images/Fig%2003.jpg)
+
+Fig 03
 
 Key feature engineering steps in the data included extraction of year, month, day from date. Time blocks were also added to enable time series analysis.
 

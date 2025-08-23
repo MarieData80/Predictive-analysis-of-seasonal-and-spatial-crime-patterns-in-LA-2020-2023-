@@ -1,4 +1,4 @@
-# Executive Summary.
+# Executive Summary
 A predictive analysis of crime patterns in LA over a 4-year period was completed to provide insights for the LAPD to utilise staffing and budget planning.  
 Historical data was used to complete time series and spatial analysis.  
 

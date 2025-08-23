@@ -1,6 +1,6 @@
 #Data Engineering 
 
-![Fig 01](../images/Fig01.png)
+![Fig 01](../images/Fig%2001.png)
 
 The data engineering followed a simplified Extract Transform Load process (A simplified ETL model 2(Reis, J. and Housley, M. (2022))
 The data preprocessing had over 900,000 lines of data in a CSV file imported into Excel /Power Query for transformation 
